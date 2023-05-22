@@ -1,12 +1,8 @@
 import React, { useContext } from 'react'
-import { useRouter } from 'next/router';
 import '../app/globals.css'
 
 export default function success() {
 
-    let router = useRouter();
-    let {query} = router;
-    console.log(query)
  
 
   return (

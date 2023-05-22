@@ -22,12 +22,8 @@ export default function Home() {
         terms:Yup.array().required("check the terms and condition")
     }),
 
-    onSubmit :  (values) => {
-        console.log(values);
-        
-         router.push('/success')
-      
-        
+    onSubmit :  (values) => {       
+         router.push('/success');        
       }
 })
 
